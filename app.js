@@ -120,7 +120,7 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
-const post = process.env.PORT;
+const port = process.env.PORT;
 if(port == null || port =="") {
   port = 3000;
 }
